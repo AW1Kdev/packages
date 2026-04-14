@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "luci-app-argon-config": "26.104.27661~5a1f7ea",
+    "luci-app-aw1k-led": "1.0-r5",
+    "luci-app-modeminfo": "1.0-r1",
+    "luci-app-netstat": "1.2-r7",
+    "luci-app-nssfw": "1.0-r1",
+    "luci-app-passwall2": "26.4.10-r1",
+    "luci-app-qmodem-sms": "2.8.9-r1",
+    "luci-app-qmodem-ttl": "2.8.9-r1",
+    "luci-app-qmodem": "2.8.9-r2",
+    "luci-app-ramfree": "1.0-r1",
+    "luci-app-tailscale": "1.2.6-r1",
+    "luci-app-xraycustom": "1.0-r2",
+    "luci-theme-argon": "2.3.2-r20250207",
+    "ndisc6": "1.0.2-r1",
+    "nss-firmware-ipq807x": "2025.05.01-r1",
+    "nss-firmware": "2025.05.01-r1",
+    "qmodem": "2.8.9-r2",
+    "quectel-CM-5G-M": "2.8.9-r2",
+    "sms-forwarder": "2.8.9-r2",
+    "sms-tool": "2021.08.24~57a68d07-r1",
+    "sms-tool_q": "2.8.9-r2",
+    "tom_modem": "2.8.9-r2",
+    "ubus-at-daemon": "2.8.9-r2"
+  }
+}
