@@ -1,7 +1,8 @@
 Package: luci-app-argon-config
 Version: 26.104.27661~5a1f7ea
 Depends: libc, luci-theme-argon
-Source: feeds/nss_packages/custom/extra/luci-app-argon-config
+Provides: luci-app-argon-config-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/extra/luci-app-argon-config
 SourceName: luci-app-argon-config
 Section: luci
 SourceDateEpoch: 1776152461
@@ -10,14 +11,15 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-argon-config_26.104.27661~5a1f7ea_all.ipk
-Size: 4277
-SHA256sum: 1645b84abfd21ad608c4fbc069af492e66647916e0e5f632b99361dfdc74dfac
+Size: 4301
+SHA256sum: 8e64e3fc65e374e5b4c5c6167845d7505943924a9505cb6ce21d5910df5f98ec
 Description:  LuCI for Argon theme configuration
 
 Package: luci-app-aw1k-led
 Version: 1.0-r5
 Depends: libc
-Source: feeds/nss_packages/custom/dotycat/luci-app-aw1k-led
+Provides: luci-app-aw1k-led-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/dotycat/luci-app-aw1k-led
 SourceName: luci-app-aw1k-led
 License: GPL-3.0
 Section: luci
@@ -26,14 +28,15 @@ Maintainer: dotycat <support@dotycat.com>
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-aw1k-led_1.0-r5_all.ipk
-Size: 4599
-SHA256sum: b8d9ecb7e77ffbd9842ee713d945b2c697ff0d842ff22729049dbc759f161bb8
+Size: 4614
+SHA256sum: c71a11945f090dc87eff4eb2b4b524c13e59455c098aa25f17ba5d2f2c7f000f
 Description:  LuCI application to configure LED behavior based on 5G signal quality.
 
 Package: luci-app-modeminfo
 Version: 1.0-r1
 Depends: libc, luci, sms-tool, kmod-usb-serial-option
-Source: feeds/nss_packages/custom/extra/luci-app-modeminfo
+Provides: luci-app-modeminfo-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/extra/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 License: GPL-3.0
 Section: luci
@@ -42,14 +45,15 @@ Maintainer: YiZhen Choo <yizhen.c02@gmail.com>
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-modeminfo_1.0-r1_all.ipk
-Size: 10673
-SHA256sum: 605e663c04570e8cbd854f025a4be3b28c1bc770dd8952e497548d525304e2b3
+Size: 10688
+SHA256sum: 5a8c0d9d01678a65eb726efc33cb9ad89e500d0c1a21d4175439ef314fd780f9
 Description:  This LuCI app provides modem information in a web interface.
 
 Package: luci-app-netstat
 Version: 1.2-r7
 Depends: libc, vnstat, curl, luci-app-filemanager
-Source: feeds/nss_packages/custom/dotycat/luci-app-netstat
+Provides: luci-app-netstat-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/dotycat/luci-app-netstat
 SourceName: luci-app-netstat
 License: GPL-3.0
 Section: luci
@@ -58,14 +62,15 @@ Maintainer: dotycat <support@dotycat.com>
 Architecture: all
 Installed-Size: 276480
 Filename: luci-app-netstat_1.2-r7_all.ipk
-Size: 86135
-SHA256sum: c625cb77d261ed8911e54d8058da7088ebd70efc23a9aafa430c850ad9be9038
+Size: 86150
+SHA256sum: 9e6e340f838fb0d097a1ade3a9c2c78e03f35921bdf9640281a710e5a81fe957
 Description:  This LuCI app provides net statistic functionality in a web interface.
 
 Package: luci-app-nssfw
 Version: 1.0-r1
 Depends: libc, luci-base, luci-mod-status, kmod-qca-nss-drv
-Source: feeds/nss_packages/custom/dotycat/luci-app-nssfw
+Provides: luci-app-nssfw-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/dotycat/luci-app-nssfw
 SourceName: luci-app-nssfw
 License: Apache-2.0
 Section: luci
@@ -74,14 +79,15 @@ Maintainer: dotycat <support@dotycat.com>
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-nssfw_1.0-r1_all.ipk
-Size: 7194
-SHA256sum: 868e457030633ddce2f438b5fccb69202579e6d14bcf4623eb6f199588530a4b
+Size: 7209
+SHA256sum: 95ad7f7f1662c3071b40479777c74430851a07d57c4db2a3491fa70e131ee3d2
 Description:  Extended status page for NSS devices. Displays UBI core load, and CPU/WIFI/UBI temps
 
 Package: luci-app-passwall2
 Version: 26.4.10-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
-Source: feeds/nss_packages/custom/dotycat/luci-app-passwall2
+Provides: luci-app-passwall2-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/dotycat/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
 SourceDateEpoch: 1776152461
@@ -90,31 +96,33 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1198080
 Filename: luci-app-passwall2_26.4.10-r1_all.ipk
-Size: 310052
-SHA256sum: 6b069702383a99ae25da04d5a2dc0441f60158219ffeaa976c35420a7825a402
+Size: 310070
+SHA256sum: c205b82df10a091a360ec1764b114b7e749b2815e67b419fc397722f22de5937
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-qmodem-sms
 Version: 2.8.9-r1
 Depends: libc, luci-app-qmodem, sms-forwarder, sms-tool_q, luci-lua-runtime
-Source: feeds/nss_packages/wwan/qmodem/luci/luci-app-qmodem-sms
+Provides: luci-app-qmodem-sms-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/luci/luci-app-qmodem-sms
 SourceName: luci-app-qmodem-sms
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1776152461
+SourceDateEpoch: 1776252933
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-qmodem-sms_2.8.9-r1_all.ipk
-Size: 11576
-SHA256sum: f74053b0dffc19bde73a7f74950d7772cb8c25a25854d0636918280477e4adfb
+Size: 11596
+SHA256sum: 83dca47f1d0dc967d2e6008beedd078a15f6bea9fd410e07ed6cd26e66c7f292
 Description:  Luci qwrt modem sms support
 
 Package: luci-app-qmodem-ttl
 Version: 2.8.9-r1
 Depends: libc, luci-app-qmodem, luci-lua-runtime
-Source: feeds/nss_packages/wwan/qmodem/luci/luci-app-qmodem-ttl
+Provides: luci-app-qmodem-ttl-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/luci/luci-app-qmodem-ttl
 SourceName: luci-app-qmodem-ttl
 License: GPLv3
 Section: luci
@@ -124,31 +132,33 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-qmodem-ttl_2.8.9-r1_all.ipk
-Size: 3339
-SHA256sum: 97ea6e45043e95901d8f0d2bd7067eef599bd7c25d10d77235626e8630e9e1cc
+Size: 3363
+SHA256sum: 58225028b79f9938acca6c312173a67a18635eb7ba389b51d3dfe62751cb6a39
 Description:  Luci qwrt modem ttl support
 
 Package: luci-app-qmodem
 Version: 2.8.9-r2
 Depends: libc, luci-compat, qmodem, luci-lua-runtime
-Source: feeds/nss_packages/wwan/qmodem/luci/luci-app-qmodem
+Provides: luci-app-qmodem-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/luci/luci-app-qmodem
 SourceName: luci-app-qmodem
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1776152461
+SourceDateEpoch: 1776252896
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 122880
+Installed-Size: 112640
 Filename: luci-app-qmodem_2.8.9-r2_all.ipk
-Size: 21991
-SHA256sum: efe7e52e61a5670ea7c06902838d09b5583374cf4dd3f135ec8947f66086b765
+Size: 21135
+SHA256sum: e7b8b9102cce490bb3022f1c6d8688aa087c864960b1052ad9bb2f3cb81d2127
 Description:  LuCI support for QWRT Modem
 
 Package: luci-app-ramfree
 Version: 1.0-r1
 Depends: libc, luci-lua-runtime
-Source: feeds/nss_packages/custom/extra/luci-app-ramfree
+Provides: luci-app-ramfree-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/extra/luci-app-ramfree
 SourceName: luci-app-ramfree
 Section: luci
 SourceDateEpoch: 1776152461
@@ -157,14 +167,15 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 10240
 Filename: luci-app-ramfree_1.0-r1_all.ipk
-Size: 1442
-SHA256sum: a1099e29af2e1932555c3db74372ecd7a572e484d81a5e6dcd3c46e54e57ba28
+Size: 1457
+SHA256sum: 59978919fedb4c3e21e1d7454f2310d096691162fb77f732a4522bdd7d2a1d66
 Description:  luci-app-ramfree
 
 Package: luci-app-tailscale
 Version: 1.2.6-r1
 Depends: libc, tailscale
-Source: feeds/nss_packages/custom/extra/luci-app-tailscale
+Provides: luci-app-tailscale-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/extra/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
 SourceDateEpoch: 1776152461
@@ -173,28 +184,30 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-tailscale_1.2.6-r1_all.ipk
-Size: 9794
-SHA256sum: 14fc3c1a88e4fa3476bd1b4e131c434dc094f6a0af063568791e29acd96f881b
+Size: 9803
+SHA256sum: 2e213e487558f2444d7c0f52a3cea9b6b024b099ee2e8431dc10e0a8bc16e165
 Description:  LuCI for Tailscale
 
 Package: luci-app-xraycustom
 Version: 1.0-r2
 Depends: libc, luci-base, rpcd, wget-ssl, ca-bundle
-Source: feeds/nss_packages/custom/dotycat/luci-app-xraycustom
+Provides: luci-app-xraycustom-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/dotycat/luci-app-xraycustom
 SourceName: luci-app-xraycustom
 Section: luci
-SourceDateEpoch: 1776152461
+SourceDateEpoch: 1776249283
 Architecture: all
-Installed-Size: 30720
+Installed-Size: 51200
 Filename: luci-app-xraycustom_1.0-r2_all.ipk
-Size: 5524
-SHA256sum: 22c997d107c5c8f12e0dea64b3e37ac98f48a1109c43b507e3f0b2c246142982
+Size: 9392
+SHA256sum: a97574cfd643996e6263bcb0114d74aab808b85dbb4fa901958723351c4c6a10
 Description:  LuCI application to manage and install custom Xray core with version control and rollback support.
 
 Package: luci-theme-argon
 Version: 2.3.2-r20250207
 Depends: libc, curl, jsonfilter, luci-lua-runtime
-Source: feeds/nss_packages/custom/extra/luci-theme-argon
+Provides: luci-theme-argon-any
+Source: feeds/nss_packages/feeds/nss_packages/custom/extra/luci-theme-argon
 SourceName: luci-theme-argon
 Section: luci
 SourceDateEpoch: 1776152461
@@ -203,14 +216,15 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 839680
 Filename: luci-theme-argon_2.3.2-r20250207_all.ipk
-Size: 463450
-SHA256sum: 19b5157788cf5c79b99faec0044c20917a0fd9fafbd3df0a206d23c587dd6602
+Size: 463462
+SHA256sum: 65a5be667d56e0fab5e7ac5869d0b359a29103afb8a467a4308c749c94ab2c05
 Description:  Argon Theme
 
 Package: ndisc6
 Version: 1.0.2-r1
 Depends: libc, libpthread, librt
-Source: feeds/nss_packages/wwan/qmodem/application/ndisc6
+Provides: ndisc6-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/application/ndisc6
 SourceName: ndisc6
 Section: ipv6
 SourceDateEpoch: 1776152461
@@ -218,14 +232,15 @@ URL: http://www.remlab.net/ndisc6/
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: ndisc6_1.0.2-r1_aarch64_cortex-a53.ipk
-Size: 6571
-SHA256sum: f7b16dd49f2d35e26fea534e5910b1c0e4a557188ca5e105f9de983d191a1a1f
+Size: 6655
+SHA256sum: fb861b26e1a751322835e034536249a5a40ef208509b8fb6719c85347517fd8f
 Description:  An ICMPv6 neighbour discovery tools
 
 Package: nss-firmware-ipq807x
 Version: 2025.05.01-r1
 Depends: libc
-Source: feeds/nss_packages/firmware/nss-firmware
+Provides: nss-firmware-ipq807x-any
+Source: feeds/nss_packages/feeds/nss_packages/firmware/nss-firmware
 SourceName: nss-firmware
 LicenseFiles: LICENSE.md
 Section: firmware
@@ -235,14 +250,15 @@ Maintainer: Sean K <datapronix@protonmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1136640
 Filename: nss-firmware-ipq807x_2025.05.01-r1_aarch64_cortex-a53.ipk
-Size: 421645
-SHA256sum: 0c854ad759c189e12fccdcfb8438bc0fd58aea08d780fd3bd52b942e4d1102d5
+Size: 421665
+SHA256sum: 2148e61efaf7eaad0b7c7682c01d9c921a4d6a8dd3a445f6ba6eea007540f6f2
 Description:  NSS firmware
 
 Package: nss-firmware
 Version: 2025.05.01-r1
 Depends: libc, nss-firmware-ipq807x
-Source: feeds/nss_packages/firmware/nss-firmware
+Provides: nss-firmware-any
+Source: feeds/nss_packages/feeds/nss_packages/firmware/nss-firmware
 SourceName: nss-firmware
 LicenseFiles: LICENSE.md
 Section: firmware
@@ -252,50 +268,53 @@ Maintainer: Sean K <datapronix@protonmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: nss-firmware_2025.05.01-r1_aarch64_cortex-a53.ipk
-Size: 883
-SHA256sum: 71520ba4da5393e1524be34eb19e0160beb6974ff0108b72f1f3a6b56f8744b6
+Size: 898
+SHA256sum: 0834bd4d98a9056e0726dd3fd18a7e3a726c4a75a2e28ba6db957df766d717fb
 Description:  NSS firmware
 
 Package: qmodem
 Version: 2.8.9-r2
 Depends: libc, kmod-usb2, kmod-usb3, kmod-usb-serial, kmod-usb-serial-option, kmod-usb-serial-qualcomm, kmod-usb-net, kmod-usb-acm, kmod-usb-wdm, kmod-usb-net-cdc-ether, kmod-usb-net-cdc-mbim, kmod-usb-net-rndis, kmod-usb-net-cdc-ncm, kmod-usb-net-huawei-cdc-ncm, ubus-at-daemon, tom_modem, terminfo, sms-tool_q, jq, bc, coreutils, coreutils-stat, usbutils, ndisc6, kmod-usb-net-qmi-wwan-quectel, kmod-usb-net-qmi-wwan-fibocom, kmod-usb-net-qmi-wwan-simcom, quectel-CM-5G-M
-Source: feeds/nss_packages/wwan/qmodem/application/qmodem
+Provides: qmodem-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/application/qmodem
 SourceName: qmodem
 Section: utils
-SourceDateEpoch: 1776152461
+SourceDateEpoch: 1776253835
 Architecture: all
-Installed-Size: 655360
+Installed-Size: 665600
 Filename: qmodem_2.8.9-r2_all.ipk
-Size: 97723
-SHA256sum: 977628c8a47e94fac6ab5959dfb5d75c4f3c3f2d0f1c31c7e3828b08a6345dc1
+Size: 96423
+SHA256sum: 4a2be07588e026634b58e157515c7073d2ddadfe3c8456365efd7db80bd0f200
 Description:  QModem scripts
 
 Package: quectel-CM-5G-M
 Version: 2.8.9-r2
 Depends: libc, libjson-c5
-Source: feeds/nss_packages/wwan/qmodem/application/quectel_CM_5G_M
+Provides: quectel-CM-5G-M-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/application/quectel_CM_5G_M
 SourceName: quectel-CM-5G-M
 Section: utils
 SourceDateEpoch: 1776152461
 Architecture: aarch64_cortex-a53
 Installed-Size: 1187840
 Filename: quectel-CM-5G-M_2.8.9-r2_aarch64_cortex-a53.ipk
-Size: 144212
-SHA256sum: 57c65fc2828d26c563c8a6ace485fd77f6918ee4788e3147dce2bfb1149fa8c0
+Size: 144482
+SHA256sum: 99d880a37bcc2d1be23e843ca0a6ab278480bbcba93a875d9e31ae8821c692d7
 Description:  quectel-CM-5G app building test
 
 Package: sms-forwarder
 Version: 2.8.9-r2
 Depends: libc, tom_modem, jq, curl, libjson-c5
-Source: feeds/nss_packages/wwan/qmodem/application/sms_forwarder
+Provides: sms-forwarder-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/application/sms_forwarder
 SourceName: sms-forwarder
 Section: utils
 SourceDateEpoch: 1776152461
 Architecture: aarch64_cortex-a53
 Installed-Size: 102400
 Filename: sms-forwarder_2.8.9-r2_aarch64_cortex-a53.ipk
-Size: 14652
-SHA256sum: 3b0cb3da0f5ca6200a7006a2836664f603fe397b98b64c01490f0c6ab9c2904c
+Size: 14659
+SHA256sum: 596f5a8e80017edcf26968b53fb5f7ce850f593270700dca541931b490dcbb83
 Description:  SMS forward service for QModem that supports multiple forwarding methods:
  - Telegram Bot
  - ServerChan
@@ -305,7 +324,8 @@ Description:  SMS forward service for QModem that supports multiple forwarding m
 Package: sms-tool
 Version: 2021.08.24~57a68d07-r1
 Depends: libc
-Source: feeds/nss_packages/wwan/app/sms-tool
+Provides: sms-tool-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/app/sms-tool
 SourceName: sms-tool
 Section: utils
 SourceDateEpoch: 1776152461
@@ -313,14 +333,15 @@ URL: https://github.com/obsy/sms_tool
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: sms-tool_2021.08.24~57a68d07-r1_aarch64_cortex-a53.ipk
-Size: 10207
-SHA256sum: 789b17a99404ac733e93625437a33b6d6633f8f3e843d703585ecdc6362a413e
+Size: 10203
+SHA256sum: fef6eeabd1199c685ab99fbcc234b8b5f9e7b6cddbf17827ef69f73c81dd9061
 Description:  SMS Tool for 3G/4G modem
 
 Package: sms-tool_q
 Version: 2.8.9-r2
 Depends: libc
-Source: feeds/nss_packages/wwan/qmodem/application/sms-tool_q
+Provides: sms-tool_q-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/application/sms-tool_q
 SourceName: sms-tool_q
 Section: utils
 SourceDateEpoch: 1776152461
@@ -328,35 +349,37 @@ URL: https://github.com/obsy/sms_tool
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: sms-tool_q_2.8.9-r2_aarch64_cortex-a53.ipk
-Size: 10762
-SHA256sum: 2f8bb19f1c6e2c14127bce65bd569094538e367f961f7f77ad000a3c07f3933c
+Size: 10722
+SHA256sum: bd97e6f16ee2eee9e0eefd4cc00f94ef6baf50f66087fb2dcfed9ddde13c5831
 Description:  SMS Tool for 3G/4G/5G modem
 
 Package: tom_modem
 Version: 2.8.9-r2
-Depends: libc, libubus20250102, libubox20240329, libjson-c5, libblobmsg-json20240329
-Source: feeds/nss_packages/wwan/qmodem/application/tom_modem
+Depends: libc, libubus20251202, libubox20260213, libjson-c5, libblobmsg-json20260213
+Provides: tom_modem-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/application/tom_modem
 SourceName: tom_modem
 Section: utils
 SourceDateEpoch: 1776152461
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: tom_modem_2.8.9-r2_aarch64_cortex-a53.ipk
-Size: 19790
-SHA256sum: a242fcb295a552f63ffb20d1b231df023f9b2fed46e7dfbd3166b5ac25bcd6b1
+Size: 19739
+SHA256sum: 7bd8081a40649ea83939a134b88519360665344bdb4dbe61053fa79f83edbd8b
 Description:  Modem Communite Tool for 5G modem (By Fujr)
 
 Package: ubus-at-daemon
 Version: 2.8.9-r2
-Depends: libc, libubus20250102, libubox20240329, libblobmsg-json20240329, libjson-c5
-Source: feeds/nss_packages/wwan/qmodem/application/ubus_at_daemon
+Depends: libc, libubus20251202, libubox20260213, libblobmsg-json20260213, libjson-c5
+Provides: ubus-at-daemon-any
+Source: feeds/nss_packages/feeds/nss_packages/wwan/qmodem/application/ubus_at_daemon
 SourceName: ubus-at-daemon
 Section: utils
 SourceDateEpoch: 1776152461
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: ubus-at-daemon_2.8.9-r2_aarch64_cortex-a53.ipk
-Size: 11542
-SHA256sum: 88da3dcbc44db949776e84c404f8679f12a8526034319dd844f05380258b1252
+Size: 11666
+SHA256sum: 764ef010886afe2daa63dadfacca0011038e67f1beb8a2b16a8a0126dfacc82f
 Description:  A ubus daemon for handling AT commands with OpenWRT
 
